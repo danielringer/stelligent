@@ -160,18 +160,33 @@ name.
 
 _Why do we prefer the YAML format for CFN templates?_
 
+#### The intrinsic functions
+
 #### Question: Protecting Resources
 
 _What else can you do to prevent resources in a stack from being deleted?_
 
 See [DeletionPolicy](https://aws.amazon.com/premiumsupport/knowledge-center/cloudformation-accidental-updates/).
 
+#### Use IAM to restrict users and utilize the DeletionPolicy attribute
+
 _How is that different from applying Termination Protection?_
+
+#### It not only prevents deletion but also prevents updates
 
 #### Task: String Substitution
 
 Demonstrate 2 ways to code string combination/substitution using
 built-in CFN functions.
+
+#### !Join
+####     - '-'
+####     - - 'stelligent'
+####       - 'U'
+####       - !Ref 'AWS::Region'
+####       - 'role'
+
+####  !Sub 'stelligent-U-${AWS::Region}-role
 
 ## Lesson 1.2: Integration with Other AWS Resources
 
