@@ -180,11 +180,11 @@ Demonstrate 2 ways to code string combination/substitution using
 built-in CFN functions.
 
 #### !Join
-####     - '-'
-####     - - 'stelligent'
-####       - 'U'
-####       - !Ref 'AWS::Region'
-####       - 'role'
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    - '-'
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    - - 'stelligent'
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - 'U'
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - !Ref 'AWS::Region'
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      - 'role'
 
 ####  !Sub 'stelligent-U-${AWS::Region}-role
 
