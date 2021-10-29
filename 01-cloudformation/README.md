@@ -242,12 +242,16 @@ Delete your CFN stacks in the same order you created them in. Did you
 succeed? If not, describe how you would _identify_ the problem, and
 resolve it yourself.
 
+#### I did not succeed. To diagnose, I went to the Cloudformation console and opened the events tab to find the failure. In this case, this stack cannot be deleted until the export dependency is removed from my second stack.
+
 ### Retrospective 1.2
 
 #### Task: Policy Tester
 
 Show how to use the IAM policy tester to demonstrate that the user
 cannot perform 'Put' actions on any S3 buckets.
+
+#### Utilizing the IAM Policy Simulator, I was able to select my user, choose a PUT action, and run a simulation. In this case, my user was appropriately denied.
 
 #### Task: SSM Parameter Store
 

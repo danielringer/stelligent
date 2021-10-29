@@ -1,10 +1,6 @@
 [
     {
         "ParameterKey":"BucketParameter",
-        "ParameterValue": "-gr-m01u1-train-use1"
-    },
-    {
-        "ParameterKey":"UserParameter",
-        "ParameterValue": "ringer-s3user"
+        "ParameterValue": "-gr-m01u3-train-use1"
     }
 ]
