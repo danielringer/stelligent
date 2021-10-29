@@ -337,6 +337,8 @@ functionality. Query S3 to ensure that the buckets have been deleted.
 _Can you list 4 features of CloudFormation that help make a CFN template
 portable code?_
 
+#### The usage of parameters, mappings, conditions, and imports
+
 #### Task: DRYer Code
 
 How reusable is your SDK-orchestration code? Did you share a single
