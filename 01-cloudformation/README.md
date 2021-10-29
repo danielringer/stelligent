@@ -349,6 +349,8 @@ finding existing stacks from the methods that create or update those stacks?
 If not, refactor your Python, Ruby or NodeJS scripts to work in the
 manner described.
 
+#### You got me! I did have to do some refactoring.
+
 ## Additional Reading
 
 Related topics to extend your knowledge about CloudFormation:
